@@ -1,0 +1,17 @@
+{
+    "name": "thomas/dojo_poker_rules",
+    "autoload": {
+        "psr-4": {
+            "Thomas\\DojoPokerRules\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thomas Aldaitz",
+            "email": "thomas.aldaitz@wildcodeschool.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
