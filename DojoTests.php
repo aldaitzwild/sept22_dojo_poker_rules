@@ -191,7 +191,7 @@ final class DojoTests extends TestCase {
     }
 
     /**
-     * @dataProvider handsWithoutAFull
+     * @dataProvider handsWithoutAStraight
      */
     public function testHasAStraightFalse(array $hand) {
         assertFalse(hasAStraight($hand));
